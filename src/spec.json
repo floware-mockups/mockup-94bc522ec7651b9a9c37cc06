@@ -83,7 +83,9 @@
           "In preparazione"
         ]
       ],
-      "form": []
+      "form": [],
+      "chartColumn": 5,
+      "statusColumn": 5
     },
     {
       "id": "elenco",
@@ -171,7 +173,8 @@
         "Data",
         "Referente",
         "Stato"
-      ]
+      ],
+      "statusColumn": 5
     },
     {
       "id": "sale-e-prestiti",
@@ -235,7 +238,8 @@
         "Data",
         "Referente",
         "Stato"
-      ]
+      ],
+      "statusColumn": 5
     },
     {
       "id": "patrocini",
@@ -291,11 +295,45 @@
         "Data",
         "Referente",
         "Stato"
-      ]
+      ],
+      "statusColumn": 5
     }
   ],
   "theme": {
-    "palette": "prugna",
-    "fonts": "editoriale"
-  }
+    "palette": "rosso-civico",
+    "fonts": "istituzionale"
+  },
+  "custom": [
+    {
+      "name": "StatoModificabile",
+      "title": "Stato modificabile",
+      "description": "Scelta dello stato nella cella con aggiornamento immediato in memoria.",
+      "role": "cell",
+      "pageId": "elenco",
+      "column": "Stato"
+    },
+    {
+      "name": "AndamentoPratiche",
+      "title": "Andamento delle pratiche",
+      "description": "Distribuzione temporale delle pratiche di Elenco, complessiva e distinta per stato corrente.",
+      "role": "section",
+      "pageId": "dashboard",
+      "position": "top"
+    },
+    {
+      "name": "DettaglioEvento",
+      "title": "Dettaglio evento laterale",
+      "description": "Pannello laterale chiudibile con i sei campi dell’evento.",
+      "role": "detail",
+      "pageId": "elenco"
+    },
+    {
+      "name": "ApriEvento",
+      "title": "Apri dettaglio evento",
+      "description": "Il nome dell’evento apre il pannello laterale della riga.",
+      "role": "cell",
+      "pageId": "elenco",
+      "column": "Evento"
+    }
+  ]
 }
