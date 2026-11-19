@@ -1,0 +1,301 @@
+{
+  "title": "Calendario cultura ed eventi",
+  "description": "Gestisci eventi, prenotazioni di sale, prestiti e patrocini. Consulta le pratiche da seguire e il loro stato.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Riepilogo",
+      "description": "Il lavoro da seguire oggi e gli appuntamenti del mese.",
+      "metrics": [
+        {
+          "label": "Eventi del mese",
+          "value": "12"
+        },
+        {
+          "label": "Sale prenotate",
+          "value": "7"
+        },
+        {
+          "label": "Prestiti attivi",
+          "value": "3"
+        },
+        {
+          "label": "Patrocini da valutare",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Tipo",
+        "Luogo",
+        "Data",
+        "Referente",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Rassegna Voci di Nubi",
+          "Concerto",
+          "Sala Lumo",
+          "12/06/2026",
+          "Neri Vela",
+          "Da confermare"
+        ],
+        [
+          "Mostra Trame di Lumo",
+          "Mostra",
+          "Spazio Nubi",
+          "14/06/2026",
+          "Mira Sola",
+          "In preparazione"
+        ],
+        [
+          "Patrocinio Festa delle Lanterne",
+          "Patrocinio",
+          "Cortile Vela",
+          "16/06/2026",
+          "Timo Riva",
+          "Da valutare"
+        ],
+        [
+          "Letture al Giardino Quieto",
+          "Incontro",
+          "Giardino Sola",
+          "18/06/2026",
+          "Leda Neri",
+          "Confermato"
+        ],
+        [
+          "Prestito pannelli Stellati",
+          "Prestito",
+          "Deposito Lume",
+          "20/06/2026",
+          "Rino Tesa",
+          "Attivo"
+        ],
+        [
+          "Laboratorio Carta e Colore",
+          "Laboratorio",
+          "Sala Lumo",
+          "22/06/2026",
+          "Vela Neri",
+          "In preparazione"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "elenco",
+      "title": "Elenco",
+      "description": "Cerca gli eventi e filtra l'elenco per stato o tipo. La ricerca considera evento, luogo e referente. Per registrare una pratica, compila i campi qui sotto.",
+      "metrics": [],
+      "columns": [
+        "Evento",
+        "Tipo",
+        "Luogo",
+        "Data",
+        "Referente",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Rassegna Voci di Nubi",
+          "Concerto",
+          "Sala Lumo",
+          "12/06/2026",
+          "Neri Vela",
+          "Da confermare"
+        ],
+        [
+          "Mostra Trame di Lumo",
+          "Mostra",
+          "Spazio Nubi",
+          "14/06/2026",
+          "Mira Sola",
+          "In preparazione"
+        ],
+        [
+          "Patrocinio Festa delle Lanterne",
+          "Patrocinio",
+          "Cortile Vela",
+          "16/06/2026",
+          "Timo Riva",
+          "Da valutare"
+        ],
+        [
+          "Letture al Giardino Quieto",
+          "Incontro",
+          "Giardino Sola",
+          "18/06/2026",
+          "Leda Neri",
+          "Confermato"
+        ],
+        [
+          "Prestito pannelli Stellati",
+          "Prestito",
+          "Deposito Lume",
+          "20/06/2026",
+          "Rino Tesa",
+          "Attivo"
+        ],
+        [
+          "Laboratorio Carta e Colore",
+          "Laboratorio",
+          "Sala Lumo",
+          "22/06/2026",
+          "Vela Neri",
+          "In preparazione"
+        ],
+        [
+          "Proiezione Sera di Vela",
+          "Proiezione",
+          "Spazio Nubi",
+          "24/06/2026",
+          "Sira Lume",
+          "Da confermare"
+        ],
+        [
+          "Patrocinio Mercato delle Storie",
+          "Patrocinio",
+          "Cortile Vela",
+          "26/06/2026",
+          "Rino Sola",
+          "Da valutare"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Tipo",
+        "Luogo",
+        "Data",
+        "Referente",
+        "Stato"
+      ]
+    },
+    {
+      "id": "sale-e-prestiti",
+      "title": "Sale e prestiti",
+      "description": "Controlla le prenotazioni delle sale e i materiali in prestito.",
+      "metrics": [],
+      "columns": [
+        "Evento",
+        "Tipo",
+        "Luogo",
+        "Data",
+        "Referente",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Rassegna Voci di Nubi",
+          "Prenotazione sala",
+          "Sala Lumo",
+          "12/06/2026",
+          "Neri Vela",
+          "Confermata"
+        ],
+        [
+          "Mostra Trame di Lumo",
+          "Prenotazione sala",
+          "Spazio Nubi",
+          "14/06/2026",
+          "Mira Sola",
+          "Confermata"
+        ],
+        [
+          "Laboratorio Carta e Colore",
+          "Prenotazione sala",
+          "Sala Lumo",
+          "22/06/2026",
+          "Vela Neri",
+          "Da confermare"
+        ],
+        [
+          "Prestito pannelli Stellati",
+          "Prestito",
+          "Deposito Lume",
+          "20/06/2026",
+          "Rino Tesa",
+          "Attivo"
+        ],
+        [
+          "Prestito sedute Arco",
+          "Prestito",
+          "Sala Lumo",
+          "28/06/2026",
+          "Mira Vela",
+          "Da restituire"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Tipo",
+        "Luogo",
+        "Data",
+        "Referente",
+        "Stato"
+      ]
+    },
+    {
+      "id": "patrocini",
+      "title": "Patrocini",
+      "description": "Segui le richieste di patrocinio e individua quelle da valutare.",
+      "metrics": [],
+      "columns": [
+        "Evento",
+        "Tipo",
+        "Luogo",
+        "Data",
+        "Referente",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Patrocinio Festa delle Lanterne",
+          "Patrocinio",
+          "Cortile Vela",
+          "16/06/2026",
+          "Timo Riva",
+          "Da valutare"
+        ],
+        [
+          "Patrocinio Mercato delle Storie",
+          "Patrocinio",
+          "Cortile Vela",
+          "26/06/2026",
+          "Rino Sola",
+          "Da valutare"
+        ],
+        [
+          "Patrocinio Suoni al Chiaro",
+          "Patrocinio",
+          "Giardino Sola",
+          "05/07/2026",
+          "Leda Neri",
+          "Documenti da verificare"
+        ],
+        [
+          "Patrocinio Giornata dei Colori",
+          "Patrocinio",
+          "Spazio Nubi",
+          "09/07/2026",
+          "Sira Lume",
+          "Confermato"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Tipo",
+        "Luogo",
+        "Data",
+        "Referente",
+        "Stato"
+      ]
+    }
+  ],
+  "theme": {
+    "palette": "prugna",
+    "fonts": "editoriale"
+  }
+}
